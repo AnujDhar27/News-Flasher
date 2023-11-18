@@ -525,7 +525,7 @@ const local_data = [
 
   return(
     <View style={{flex:1,paddingTop:20,backgroundColor:'#f5f2ed'}}>
-       <Text style={{textAlign:'center',}} variant='titleLarge'>Welcome to News Flasher</Text>
+       <Text style={{textAlign:'center'}} variant='titleLarge'>Welcome to News Flasher</Text>
        <View style={{flexDirection:'row'}}>
        <Searchbar
        placeholder='Enter any keyword'
@@ -542,7 +542,6 @@ const local_data = [
         maxHeight={200}
         value={country}
         data={local_data}
-        
         valueField="value"
         labelField="lable"
         imageField="image"
@@ -619,6 +618,7 @@ const styles = StyleSheet.create({
   selectedTextStyle: {
     fontSize: 16,
     marginLeft: 8,
+    color:'black'
   },
   iconStyle: {
     width: 20,
